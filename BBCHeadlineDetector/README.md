@@ -1,7 +1,7 @@
 # BBC Headlines Multi-Label Classifier
 
 This is a multi-label classifier built to classify BBC headlines into one or more of five categories: business, entertainment, politics, sport, and tech. 
-The model is built using Embeddings, Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) architecture. The project was developed in Python, 
+The model is built using Embeddings, Recurrent Neural Networks (RNNs) like Long Short-Term Memory (LSTM) architecture. The project was developed in Python, 
 using NLTK and TensorFlow libraries.
 
 
@@ -9,7 +9,7 @@ using NLTK and TensorFlow libraries.
 Two news article datasets, originating from BBC News, provided for use as benchmarks for machine learning research.
 These datasets are made available for non-commercial and research purposes only. 
 
-The dataset used for training the model consists of a collection of BBC headlines from 2004 to 2005. 
+The dataset used for training the model consists of a collection of [BBC headlines from 2004 to 2005](http://mlg.ucd.ie/datasets/bbc.html). 
 It contains a total of 2225 headlines, with each headline belonging to one or more of the five categories. The dataset is split into training 
 and testing sets with a ratio of 80:20.
 
