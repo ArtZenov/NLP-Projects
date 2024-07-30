@@ -1,23 +1,23 @@
-# Natural Language Processing Projects 
- 
-This is my portfolio of Natural Language Processing projects. Each project includes a brief overview, the tools and technologies used, and the outcomes achieved. All of the code and relevant datasets are available in the corresponding project repository.
+# Проекты по обработке естественного языка
 
-## Table of Contents
-* **Project 1** : [BBC Headlines Classifier using RNNs](/BBCHeadlineDetector) 
-* **Project 2** : [Instagram Poet using OCR and RNNs](/InstaPoet)
+Это мое портфолио проектов по обработке естественного языка. Каждый проект включает в себя краткий обзор, используемые инструменты и технологии, а также достигнутые результаты. Весь код и соответствующие наборы данных доступны в соответствующем репозитории проекта.
 
-## Project 1: BBC Headlines Classifier using RNNs: 
-In this project, I built a Recurrent Neural Network (RNNs) to perform Multi-Label Classification on the [BBC Headlines Dataset](http://mlg.ucd.ie/datasets/bbc.html) using Tensorflow and NLTK libraries for both preprocessing, and model building, training and validation respectively
+## Оглавление
+* **Проект 1** : [Классификатор заголовков BBC с использованием RNNs](/BBCHeadlineDetector)
+* **Проект 2** : [Instagram Poet using OCR and RNNs](/InstaPoet)
 
-**Key Tech:** Recurrent Neural Networks (RNNs), Multi-Label classification, NLTK & Tensorflow
+## Проект 1: Классификатор заголовков BBC с использованием RNN:
+В этом проекте я построил рекуррентную нейронную сеть (RNNs) для выполнения многопометной классификации на [BBC Headlines Dataset](http://mlg.ucd.ie/datasets/bbc.html), используя библиотеки Tensorflow и NLTK как для предварительной обработки, так и для построения, обучения и проверки модели соответственно.
 
-## Project 2: Instagram Poet using OCR and RNNs: 
-In this project, I performed Webscraping to obtain a random instagram poet's posts, then performed Object Character Recognization (OCR) to strip the texts from the posts and then built and trained a Recurrent Neural Network (RNNs) to generate poetry from a given seed word. 
+**Ключевые технологии:** рекуррентные нейронные сети (РНС), классификация по нескольким меткам, NLTK и Tensorflow
 
-**Key Tech:** Webscraping , Object Character Recognization (OCR), RNNs, Text Generation & Tensorflow
+## Проект 2: Instagram Poet с использованием OCR и RNNs:
+В этом проекте я занимался веб-скраппингом для получения случайных постов поэта в instagram, затем выполнял распознавание символов объекта (OCR) для удаления текстов из постов, а затем построил и обучил рекуррентную нейронную сеть (RNNs) для генерации поэзии из заданного начального слова.
 
-## Dependencies
-The NLP projects in this portfolio use the following dependencies:
+**Ключевые технологии:** веб-скраппинг, распознавание символов объектов (OCR), RNNs, генерация текста и Tensorflow.
+
+## Зависимости
+Проекты NLP в этом портфолио используют следующие зависимости:
 
 * Python 3.x
 * Natural Language Toolkit (NLTK)
@@ -28,16 +28,18 @@ The NLP projects in this portfolio use the following dependencies:
 * Keras
 * Matplotlib
 
-You can install these dependencies using pip.
+Вы можете установить эти зависимости с помощью pip.
 ```
 pip install tensorflow nltk scikit-learn numpy matplotlib 
 ```
-## Usage
-Each project is contained in its own directory, and includes a README file with detailed instructions on how to run the project and use its functionalities.
+## Использование
+Каждый проект находится в отдельной директории и содержит файл README с подробными инструкциями по запуску проекта и использованию его функциональных возможностей.
 
-## Conclusion
-This NLP portfolio showcases my expertise in various NLP techniques, such as text classification, sentiment analysis, topic modeling, and text generation. Each project is designed to address a specific NLP problem and includes a detailed description of the problem statement, data analysis, model selection, and evaluation. The portfolio includes projects using both traditional machine learning techniques and deep learning models, providing a comprehensive view of my NLP skills.
-
-
+## Заключение
+Это портфолио NLP демонстрирует мой опыт в различных техниках NLP, таких как классификация текстов, анализ настроения, тематическое моделирование и генерация текстов. Каждый проект предназначен для решения конкретной проблемы NLP и включает в себя подробное описание постановки задачи, анализ данных, выбор модели и оценку. Портфолио включает проекты, использующие как традиционные методы машинного обучения, так и модели глубокого обучения, что дает полное представление о моих навыках в области NLP.
 
 
+
+
+
+Переведено с помощью DeepL.com (бесплатная версия)
